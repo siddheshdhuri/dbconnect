@@ -29,7 +29,7 @@ getDBConnection <- function(dbtype = "oracle", dbserver=NULL, portnumber=NULL, d
 
   if(is.null(dbserver) || is.null(dbname) || is.null(username) || is.null(password)) stop("missing required arguments")
 
-  if(Sys.Date() > "2018-08-30") stop("This package has expired please contact package author")
+  if(Sys.Date() > "2018-12-31") stop("Package dbconnect is out of date please upgrade to latest version")
 
   #' intitialise settings
   Sys.setenv(JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64')
